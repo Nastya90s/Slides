@@ -9,6 +9,14 @@
     "dev": "webpack serve",
     "predeploy": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nastya90s/ProfitKit.git"
+  },
+  "author": "",
+  "license": "ISC",
+
+
   "dependencies": {
     "core-js": "^3.29.0",
     "jquery": "^3.6.4",

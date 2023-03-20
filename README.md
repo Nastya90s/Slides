@@ -1,3 +1,1 @@
-# ProfitKit
-
-### Обзор
+# profitKit

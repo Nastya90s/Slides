@@ -9,16 +9,6 @@
     "dev": "webpack serve",
     "predeploy": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nastya90s/Slides.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nastya90s/Slides/issues"
-  },
-  "homepage": "https://github.com/Nastya90s/Slides#readme",
   "dependencies": {
     "core-js": "^3.29.0",
     "jquery": "^3.6.4",

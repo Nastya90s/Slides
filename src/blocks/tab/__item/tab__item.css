@@ -1,0 +1,26 @@
+.tab__item {
+    /* margin: 0 auto; */
+    /* padding: 0; */
+    max-width: 406px;
+    height: 34px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535658;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 1px dashed #535658;
+}
+
+
+@media screen and (max-width: 768px) {
+    .tab__item {
+        max-width: 185px;
+        max-height: 22px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,17 @@
+.card__old-price {
+    margin: 0 auto;
+    width: 41px;
+    height: 22px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #8D9295;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

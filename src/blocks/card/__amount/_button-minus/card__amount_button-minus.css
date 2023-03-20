@@ -1,0 +1,11 @@
+.card__amount_button-minus {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background-image: url(../../../../images/minus.svg);
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+}

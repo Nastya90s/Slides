@@ -1,0 +1,30 @@
+.card__amount-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+    background: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ECF0F4;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card__amount-container {
+        display: none;
+    }
+  }
+
+
+
+

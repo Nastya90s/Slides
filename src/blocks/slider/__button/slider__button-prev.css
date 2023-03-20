@@ -1,0 +1,10 @@
+.slider__button-prev {
+    left: -80px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .slider__button-prev {
+        display: none !important;
+    }
+}

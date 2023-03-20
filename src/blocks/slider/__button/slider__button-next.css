@@ -1,0 +1,12 @@
+.slider__button-next {
+   right: -80px;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+@media screen and (max-width: 768px) {
+   .slider__button-next {
+       display: none !important;
+   }
+}
+

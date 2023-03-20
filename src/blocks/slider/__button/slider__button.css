@@ -1,0 +1,25 @@
+.slider__button {
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+    cursor: pointer;
+    background: none;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../images/arrow.svg);
+    background-repeat: no-repeat;
+    border: 1px solid #ECF0F4;
+    border-radius: 5px;
+    background-size: 9px 19px;
+    background-position: center; 
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .slider__button {
+        display: none !important;
+    }
+}

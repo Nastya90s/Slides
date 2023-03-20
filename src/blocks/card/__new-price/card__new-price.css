@@ -1,0 +1,15 @@
+.card__new-price {
+    margin: 0 auto;
+    height: 22px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

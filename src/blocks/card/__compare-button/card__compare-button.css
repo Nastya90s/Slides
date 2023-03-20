@@ -1,0 +1,27 @@
+.card__compare-button {
+    position: absolute;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 34px;
+    height: 34px;
+    margin-left: 280px;
+    top: 55px;
+    background-image: url(../../../images/scales.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 18px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.card__compare-button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .card__compare-button{
+    margin-left: 206px;
+  }
+}

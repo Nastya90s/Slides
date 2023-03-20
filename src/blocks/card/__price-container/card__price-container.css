@@ -1,0 +1,16 @@
+.card__price-container {
+    margin: 5px auto 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    max-width: 110px;
+    height: 22px; 
+}
+
+@media screen and (max-width: 768px) {
+    .card__price-container {
+        margin: 15px auto 0px;
+    }
+  }

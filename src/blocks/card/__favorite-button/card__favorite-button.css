@@ -1,0 +1,27 @@
+.card__favorite-button {
+    position: absolute;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    width: 34px;
+    height: 34px;
+    margin-left: 280px;
+    top: 20px;
+    background-image: url(../../../images/heart.svg);
+    background-size: 18px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.card__favorite-button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .card__favorite-button {
+    margin-left: 206px;
+  }
+}

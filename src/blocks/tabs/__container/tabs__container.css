@@ -1,0 +1,25 @@
+.tabs__container {
+    list-style: none;
+    width: 1600px;
+    max-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 80px auto 40px;
+    gap: 25px;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .tabs__container {
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+        margin: 40px 0 27px;
+        margin-left: 20px;
+        max-height: 84px;
+        padding: 0px;
+        justify-content: center;
+        min-width: 215px;
+    }
+  }

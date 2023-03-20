@@ -1,0 +1,12 @@
+.slider__card-item {
+  height: 496px;
+  border: 1px solid #ECF0F4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__card-item  {
+    height: 441px;
+  }
+}
